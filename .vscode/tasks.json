@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run API Maven tests",
+			"type": "shell",
+			"command": "mvn",
+			"args": [
+				"-f",
+				"api\\pom.xml",
+				"test"
+			],
+			"isBackground": false
+		}
+	]
+}
